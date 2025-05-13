@@ -1,0 +1,1 @@
+Bumped mc version and dependencies to support 1.20

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.github.imagineforgee.chocky_tweaks2.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SkiesMusicHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.chocky_tweaks2.refmap.json",
+  "client": [
+    "BossMusicMixin",
+    "SkiesMusicTickerMixin"
+  ]
+}
